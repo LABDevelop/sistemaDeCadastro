@@ -73,7 +73,6 @@ table {
 }
 
 .tbl-content {
-  height:700px;
   overflow-x:auto;
   margin-top: 0px;
   border: 2px solid #c4c2c2;
@@ -99,6 +98,7 @@ td {
   color: rgb(63, 62, 62);
   border-bottom: 1px solid #c4c2c2;
   border-right: 3px solid #fff;
+  border-left: 3px solid #fff;
   background: #f2f2f2;
 }
 
