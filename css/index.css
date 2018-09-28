@@ -1,24 +1,24 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
-.login-page {
+body {
+  background: #76b852; 
+  background: linear-gradient(to left, #76b852, #8DC26F);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+
+.paginaLogin {
   width: 360px;
   padding: 8% 0 0;
   margin: auto;
 }
 
-.titulo-login {
+.formulario-titulo {
   margin: 0 0 20px 0;
 }
 
-.titulo-listagem {
-  font-size: 30px;
-  text-transform: uppercase;
-  font-weight: 300;
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.form {
+.formulario {
   position: relative;
   z-index: 1;
   background: #FFFFFF;
@@ -29,7 +29,7 @@
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
-.form input {
+.formulario input {
   font-family: "Roboto", sans-serif;
   outline: 0;
   background: #f2f2f2;
@@ -41,7 +41,7 @@
   font-size: 14px;
 }
 
-.form button {
+.formulario button {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   outline: 0;
@@ -55,16 +55,23 @@
   cursor: pointer;
 }
 
-.form button:hover,.form button:active,.form button:focus {
+.formulario button:hover,.form button:active,.form button:focus {
   background: #43A047;
 }
 
-body {
-  background: #76b852; 
-  background: linear-gradient(to left, #76b852, #8DC26F);
-  font-family: "Roboto", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;      
+.paginaListagem {
+  background: #FFFFFF;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.paginaListagem-titulo {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 table {
@@ -123,13 +130,6 @@ section {
 
 .autor a:hover {
   text-decoration: underline;
-}
-
-.principal {
-  background: #FFFFFF;
-  padding: 45px;
-  text-align: center;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
 .botao-tabela {
