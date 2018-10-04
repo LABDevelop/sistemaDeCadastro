@@ -11,10 +11,10 @@
   <div class="paginaLogin">
     <div class="formulario">
       <h1 class="formulario-titulo">Login</h1>
-      <form>
-        <input type="text" placeholder="usuário" />
-        <input type="password" placeholder="senha" />
-        <button>entrar</button>
+      <form onsubmit="event.preventDefault()">
+        <input type="text" placeholder="usuário" id="paginaLogin-usuario">
+        <input type="password" placeholder="senha" id="paginaLogin-senha">
+        <button id="paginaLogin-botao">entrar</button>
       </form>
     </div>
   </div>
@@ -22,5 +22,6 @@
     Criado por
     <a target="_blank" href="https://br.linkedin.com/in/guilherme-watanabe-batista-45207b136">Guilherme Watanabe Batista</a>
   </div>
+  <script src="js/autentica-usuario.js"></script>
 </body>
 </html>
