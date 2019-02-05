@@ -110,7 +110,11 @@ table {
   background: #f2f2f2;
 }
 
+<<<<<<< HEAD
 .paginalistagem-botao, .paginalistagem-botao-excluir {
+=======
+.paginalistagem-botao {
+>>>>>>> 068a477042643e2737729af2e161abe158fa2f12
   font-family: "Roboto", sans-serif;
   background: #4CAF50;
   width: 25%;
@@ -122,6 +126,7 @@ table {
   transition: all 0.3 ease;
   cursor: pointer;
   outline: 0;
+<<<<<<< HEAD
   border-radius: 5px;
 }
 
@@ -137,6 +142,14 @@ table {
   display: none;
 }
 
+=======
+}
+
+.paginalistagem-botao:hover,.botao-tabela:active,.botao-tabela:focus {
+  background: #43A047;
+}
+
+>>>>>>> 068a477042643e2737729af2e161abe158fa2f12
 .autor {
   margin-top: 40px;
   padding: 10px;
