@@ -64,6 +64,7 @@ body {
   padding: 45px;
   text-align: center;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  margin: 50px;
 }
 
 .paginaListagem-titulo {
@@ -79,14 +80,14 @@ table {
   table-layout: fixed;
 }
 
-.tbl-content {
+.paginalistagem-conteudo {
   overflow-x:auto;
   margin-top: 0px;
   border: 2px solid #c4c2c2;
   background: #f2f2f2;
 }
 
-th {
+.paginaListagem th {
   padding: 20px 15px;
   text-align: center;
   font-size: 14px;
@@ -96,7 +97,7 @@ th {
   background: #c4c2c2;
 }
 
-td {
+.paginalistagem-conteudo td {
   padding: 15px;
   text-align: center;
   vertical-align:middle;
@@ -109,11 +110,34 @@ td {
   background: #f2f2f2;
 }
 
-section {
-  margin: 50px;
+.paginalistagem-botao, .paginalistagem-botao-excluir {
+  font-family: "Roboto", sans-serif;
+  background: #4CAF50;
+  width: 25%;
+  border: 0px;
+  margin: 2px;
+  padding: 7px;
+  color: #FFFFFF;
+  font-size: 14px;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  outline: 0;
+  border-radius: 5px;
 }
 
- .autor {
+.paginalistagem-botao:hover,.botao-tabela:active,.botao-tabela:focus {
+  background: #43A047;
+}
+
+.paginalistagem-botao-excluir:hover,.botao-tabela:active,.botao-tabela:focus {
+  background: #43A047;
+}
+
+.fadeOut {
+  display: none;
+}
+
+.autor {
   margin-top: 40px;
   padding: 10px;
   clear: left;
@@ -132,20 +156,3 @@ section {
   text-decoration: underline;
 }
 
-.botao-tabela {
-  font-family: "Roboto", sans-serif;
-  background: #4CAF50;
-  width: 25%;
-  border: 0px;
-  margin: 2px;
-  padding: 7px;
-  color: #FFFFFF;
-  font-size: 14px;
-  transition: all 0.3 ease;
-  cursor: pointer;
-  outline: 0;
-}
-
-.botao-tabela:hover,.botao-tabela:active,.botao-tabela:focus {
-  background: #43A047;
-}
